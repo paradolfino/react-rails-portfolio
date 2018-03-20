@@ -1,5 +1,5 @@
 class TechsController < ApplicationController
-    before_action :set_tech
+    before_action :set_tech, only: [:show, :update, :destroy]
 
     def index
         @techs = Tech.all
