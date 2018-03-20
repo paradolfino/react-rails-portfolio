@@ -1,2 +1,3 @@
 19/03/2018: 19:29 - 19:32:pool[generate projects and technologies models]
 19/03/2018: 19:32 - 19:41:pool[set up many to one relationship from projects to technology]
+19/03/2018: 19:41 - 19:44:pool[set up rest actions in projects and techs controllers]
