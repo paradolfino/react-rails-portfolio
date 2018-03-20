@@ -27,11 +27,11 @@ class TechsController < ApplicationController
     private
 
         def tech_params
-            params.permit(:name)
+            params.permit(:name, :created_by)
         end
 
-        def set_word
-            @word = Word.friendly.find(params[:id])
+        def set_tech
+            @tech = Tech.find(params[:id])
         end
 
 end
