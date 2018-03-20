@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+##### 19/03/2018: 19:29 - 19:32:pool[generate projects and technologies models]
