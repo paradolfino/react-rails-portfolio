@@ -26,8 +26,8 @@ class TechsController < ApplicationController
 
     private
 
-        def word_params
-            params.permit(:english, :normansk, :tense, :category_id, :slug)
+        def tech_params
+            params.permit(:name)
         end
 
         def set_word
