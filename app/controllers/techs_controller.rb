@@ -23,7 +23,7 @@ class TechsController < ApplicationController
     end
 
     def update
-        if @tech.update
+        if @tech.update(tech_params)
             redirect_to @tech
         else
             render 'new'
