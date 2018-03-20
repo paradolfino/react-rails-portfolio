@@ -23,7 +23,11 @@ class TechsController < ApplicationController
     end
 
     def update
-
+        if @tech.update
+            redirect_to @tech
+        else
+            render 'new'
+        end
     end
 
     def destroy
