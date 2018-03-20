@@ -26,7 +26,7 @@ class TechsController < ApplicationController
         if @tech.update(tech_params)
             redirect_to @tech
         else
-            render 'new'
+            render 'edit'
         end
     end
 
