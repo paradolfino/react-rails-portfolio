@@ -1,4 +1,5 @@
 class TechsController < ApplicationController
+    before_action :set_tech
 
     def index
         @techs = Tech.all
