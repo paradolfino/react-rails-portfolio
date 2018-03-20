@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+##### 19/03/2018: 19:29 - 19:32:pool[generate projects and technologies models]
+
+##### 19/03/2018: 19:32 - 19:41:pool[set up many to one relationship from projects to technology]
+
+##### 19/03/2018: 19:41 - 19:44:pool[set up rest actions in projects and techs controllers]
+
+##### 19/03/2018: 19:44 - 19:46:pool[implement variable references for controller actions]
+
+##### 19/03/2018: 19:46 - 19:47:pool[set up private methods and whitelisting for techs controller]
+
+##### 19/03/2018: 19:47 - 19:48:pool[implement before_action for techs controller]
+
+##### 19/03/2018: 19:48 - 19:54:pool[finish setting up rest actions for techs controller]
