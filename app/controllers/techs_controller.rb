@@ -10,11 +10,11 @@ class TechsController < ApplicationController
     end
 
     def new
-
+        @tech = Tech.new
     end
 
     def create
-
+        @tech = Tech.new(tech_params)
     end
 
     def update
