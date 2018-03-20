@@ -34,3 +34,5 @@ Things you may want to cover:
 ##### 19/03/2018: 19:46 - 19:47:pool[set up private methods and whitelisting for techs controller]
 
 ##### 19/03/2018: 19:47 - 19:48:pool[implement before_action for techs controller]
+
+##### 19/03/2018: 19:48 - 19:54:pool[finish setting up rest actions for techs controller]
