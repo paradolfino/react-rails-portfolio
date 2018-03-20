@@ -31,7 +31,7 @@ class TechsController < ApplicationController
     end
 
     def destroy
-
+        @tech.destroy
     end
 
     private
