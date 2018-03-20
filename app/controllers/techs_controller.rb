@@ -24,4 +24,14 @@ class TechsController < ApplicationController
 
     end
 
+    private
+
+        def word_params
+            params.permit(:english, :normansk, :tense, :category_id, :slug)
+        end
+
+        def set_word
+            @word = Word.friendly.find(params[:id])
+        end
+
 end
