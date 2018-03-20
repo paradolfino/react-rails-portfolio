@@ -3,3 +3,4 @@
 19/03/2018: 19:41 - 19:44:pool[set up rest actions in projects and techs controllers]
 19/03/2018: 19:44 - 19:46:pool[implement variable references for controller actions]
 19/03/2018: 19:46 - 19:47:pool[set up private methods and whitelisting for techs controller]
+19/03/2018: 19:47 - 19:48:pool[implement before_action for techs controller]
