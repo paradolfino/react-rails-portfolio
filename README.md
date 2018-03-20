@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 ##### 19/03/2018: 19:29 - 19:32:pool[generate projects and technologies models]
+
+##### 19/03/2018: 19:32 - 19:41:pool[set up many to one relationship from projects to technology]
