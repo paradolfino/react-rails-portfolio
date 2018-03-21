@@ -1,4 +1,4 @@
-class TechsController < ApplicationController
+class TechnologiesController < ApplicationController
     before_action :set_tech, only: [:show, :update, :destroy]
 
     def index
