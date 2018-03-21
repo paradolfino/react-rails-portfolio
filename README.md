@@ -36,3 +36,15 @@ Things you may want to cover:
 ##### 19/03/2018: 19:47 - 19:48:pool[implement before_action for techs controller]
 
 ##### 19/03/2018: 19:48 - 19:54:pool[finish setting up rest actions for techs controller]
+
+##### 20/03/2018: 19:02 - 19:03:pool[fixing association from many-to-one to has-many-belongs-to]
+
+##### 20/03/2018: 19:03 - 19:11:pool[fixing association]
+
+##### 20/03/2018: 19:11 - 19:14:pool[fix assoc in actual models]
+
+##### 20/03/2018: 19:14 - 19:19:pool[set up projects controller with REST actions, params private method, and set_tech before action]
+
+##### 20/03/2018: 19:19 - 19:21:pool[fix techs table - rename]
+
+##### 20/03/2018: 19:21 - 19:30:pool[test rails console tables]

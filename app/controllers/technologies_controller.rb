@@ -1,20 +1,20 @@
-class TechsController < ApplicationController
+class TechnologynologiesController < ApplicationController
     before_action :set_tech, only: [:show, :update, :destroy]
 
     def index
-        @techs = Tech.all
+        @techs = Technology.all
     end
 
     def show
-        @tech = Tech.find(params[:id])
+        @tech = Technology.find(params[:id])
     end
 
     def new
-        @tech = Tech.new
+        @tech = Technology.new
     end
 
     def create
-        @tech = Tech.new(tech_params)
+        @tech = Technology.new(tech_params)
         if @tech.save
             redirect_to @tech
         else
@@ -41,7 +41,7 @@ class TechsController < ApplicationController
         end
 
         def set_tech
-            @tech = Tech.find(params[:id])
+            @tech = Technology.find(params[:id])
         end
 
 end
