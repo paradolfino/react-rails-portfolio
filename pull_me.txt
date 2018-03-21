@@ -1,11 +1,1 @@
 
-[begin setup of rr_portfolio project with models and controllers]
-### 19/03/2018[19:29 - 19:54]:
-* generate projects and technologies models
-* set up many to one relationship from projects to technology
-* set up rest actions in projects and techs controllers
-* implement variable references for controller actions
-* set up private methods and whitelisting for techs controller
-* implement before_action for techs controller
-* finish setting up rest actions for techs controller
-
