@@ -1,46 +1,46 @@
 class ProjectsController < ApplicationController
-    before_action :set_tech, only: [:show, :update, :destroy]
+    before_action :set_project, only: [:show, :update, :destroy]
 
     def index
-        @techs = Tech.all
+        @projects = Project.all
     end
 
     def show
-        @tech = Tech.find(params[:id])
+        @project = Project.find(params[:id])
     end
 
     def new
-        @tech = Tech.new
+        @project = Project.new
     end
 
     def create
-        @tech = Tech.new(tech_params)
-        if @tech.save
-            redirect_to @tech
+        @project = Project.new(project_params)
+        if @project.save
+            redirect_to @project
         else
             render 'new'
         end
     end
 
     def update
-        if @tech.update(tech_params)
-            redirect_to @tech
+        if @project.update(project_params)
+            redirect_to @project
         else
             render 'edit'
         end
     end
 
     def destroy
-        @tech.destroy
+        @project.destroy
     end
 
     private
 
-        def tech_params
+        def project_params
             params.permit(:name, :created_by)
         end
 
-        def set_tech
-            @tech = Tech.find(params[:id])
+        def set_project
+            @project = Project.find(params[:id])
         end
 end
