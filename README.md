@@ -44,3 +44,5 @@ Things you may want to cover:
 ##### 20/03/2018: 19:11 - 19:14:pool[fix assoc in actual models]
 
 ##### 20/03/2018: 19:14 - 19:19:pool[set up projects controller with REST actions, params private method, and set_tech before action]
+
+##### 20/03/2018: 19:19 - 19:21:pool[fix techs table - rename]
