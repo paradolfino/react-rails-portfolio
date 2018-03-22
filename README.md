@@ -48,3 +48,5 @@ Things you may want to cover:
 ##### 20/03/2018: 19:19 - 19:21:pool[fix techs table - rename]
 
 ##### 20/03/2018: 19:21 - 19:30:pool[test rails console tables]
+
+##### 21/03/2018: 19:23 - 19:28:pool[add declaration model and migration]
