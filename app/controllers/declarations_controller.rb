@@ -37,7 +37,7 @@ class DeclarationsController < ApplicationController
     private
 
         def declaration_params
-            params.permit(:name, project_ids: [], :created_by)
+            params.permit(:content, :created_by)
         end
 
         def set_declaration
