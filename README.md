@@ -56,3 +56,5 @@ Things you may want to cover:
 ##### 21/03/2018: 19:29 - 19:31:pool[add association from entries to declarations models]
 
 ##### 21/03/2018: 19:31 - 19:35:pool[add REST actions, private methods, and before action to declarations controller]
+
+##### 21/03/2018: 19:35 - 19:39:pool[add REST actions, private methods, and before action to entries controller]
