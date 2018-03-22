@@ -52,3 +52,5 @@ Things you may want to cover:
 ##### 21/03/2018: 19:23 - 19:28:pool[add declaration model and migration]
 
 ##### 21/03/2018: 19:28 - 19:29:pool[add reference from entries to declarations model]
+
+##### 21/03/2018: 19:29 - 19:31:pool[add association from entries to declarations models]
