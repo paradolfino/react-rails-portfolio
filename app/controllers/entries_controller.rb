@@ -37,7 +37,7 @@ class EntriesController < ApplicationController
     private
 
         def entry_params
-            params.permit(:content, :created_by)
+            params.permit(:content, :declaration_id, :created_by)
         end
 
         def set_entry
