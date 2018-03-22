@@ -48,3 +48,15 @@ Things you may want to cover:
 ##### 20/03/2018: 19:19 - 19:21:pool[fix techs table - rename]
 
 ##### 20/03/2018: 19:21 - 19:30:pool[test rails console tables]
+
+##### 21/03/2018: 19:23 - 19:28:pool[add declaration model and migration]
+
+##### 21/03/2018: 19:28 - 19:29:pool[add reference from entries to declarations model]
+
+##### 21/03/2018: 19:29 - 19:31:pool[add association from entries to declarations models]
+
+##### 21/03/2018: 19:31 - 19:35:pool[add REST actions, private methods, and before action to declarations controller]
+
+##### 21/03/2018: 19:35 - 19:39:pool[add REST actions, private methods, and before action to entries controller]
+
+##### 21/03/2018: 19:39 - 19:42:pool[add validations to models]

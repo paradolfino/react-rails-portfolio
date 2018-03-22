@@ -37,7 +37,7 @@ class TechnologynologiesController < ApplicationController
     private
 
         def tech_params
-            params.permit(:name, :created_by)
+            params.permit(:name, project_ids: [], :created_by)
         end
 
         def set_tech

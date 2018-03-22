@@ -1,10 +1,10 @@
 
-[changed association from many_to_one to many_to_many, began testing relationship with rails console]
-### 20/03/2018[19:02 - 19:30]:
-* fixing association from many-to-one to has-many-belongs-to
-* fixing association
-* fix assoc in actual models
-* set up projects controller with REST actions, params private method, and set_tech before action
-* fix techs table - rename
-* test rails console tables
+[add declaration and entry controllers/models, add REST actions for declaration and entry controllers, add validations to all models]
+### 21/03/2018[19:23 - 19:42]:
+* add declaration model and migration
+* add reference from entries to declarations model
+* add association from entries to declarations models
+* add REST actions, private methods, and before action to declarations controller
+* add REST actions, private methods, and before action to entries controller
+* add validations to models
 
