@@ -1,4 +1,4 @@
 class Declaration < ApplicationRecord
     has_many :entries
-    validates :content, presence: true
+    validates :content, presence: true, length: { minimum: 1 }
 end
