@@ -37,7 +37,7 @@ class ProjectsController < ApplicationController
     private
 
         def project_params
-            params.permit(:title, :desc, :created_by)
+            params.permit(:title, :desc, technology_ids: [], :created_by)
         end
 
         def set_project
