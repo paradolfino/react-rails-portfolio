@@ -58,3 +58,5 @@ Things you may want to cover:
 ##### 21/03/2018: 19:31 - 19:35:pool[add REST actions, private methods, and before action to declarations controller]
 
 ##### 21/03/2018: 19:35 - 19:39:pool[add REST actions, private methods, and before action to entries controller]
+
+##### 21/03/2018: 19:39 - 19:42:pool[add validations to models]

@@ -1,1 +1,10 @@
 
+[add declaration and entry controllers/models, add REST actions for declaration and entry controllers, add validations to all models]
+### 21/03/2018[19:23 - 19:42]:
+* add declaration model and migration
+* add reference from entries to declarations model
+* add association from entries to declarations models
+* add REST actions, private methods, and before action to declarations controller
+* add REST actions, private methods, and before action to entries controller
+* add validations to models
+
