@@ -60,3 +60,5 @@ Things you may want to cover:
 ##### 21/03/2018: 19:35 - 19:39:pool[add REST actions, private methods, and before action to entries controller]
 
 ##### 21/03/2018: 19:39 - 19:42:pool[add validations to models]
+
+##### 27/03/2018: 19:40 - 19:53:pool[implement friendly_id]

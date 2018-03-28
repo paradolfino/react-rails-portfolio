@@ -37,11 +37,11 @@ class TechnologynologiesController < ApplicationController
     private
 
         def tech_params
-            params.permit(:name, project_ids: [], :created_by)
+            params.permit(:name, project_ids: [], :created_by, :slug)
         end
 
         def set_tech
-            @tech = Technology.find(params[:id])
+            @tech = Technology.friendly.find(params[:id])
         end
 
 end
