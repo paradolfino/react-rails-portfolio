@@ -41,7 +41,7 @@ class TechnologynologiesController < ApplicationController
         end
 
         def set_tech
-            @tech = Technology.find(params[:id])
+            @tech = Technology.friendly.find(params[:id])
         end
 
 end
