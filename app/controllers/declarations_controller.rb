@@ -24,9 +24,9 @@ class DeclarationsController < ApplicationController
 
     def update
         if @declaration.update(declaration_params)
-            redirect_to @declaration
+            json_response(@declaration.to_json(:include => [:entries]))
         else
-            render 'edit'
+            json_response(@declaration.errors, :unprocessable_entity)
         end
     end
 
