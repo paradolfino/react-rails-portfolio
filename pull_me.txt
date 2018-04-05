@@ -1,5 +1,1 @@
 
-[implement friendly_id for technology model]
-### 27/03/2018[19:40 - 19:53]:
-* implement friendly_id
-
