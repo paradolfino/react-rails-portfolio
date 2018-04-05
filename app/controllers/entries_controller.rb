@@ -22,13 +22,7 @@ class EntriesController < ApplicationController
         end
     end
 
-    def update
-        if @entry.update(entry_params)
-            redirect_to @entry
-        else
-            render 'edit'
-        end
-    end
+    def update; end
 
     def destroy
         @entry.destroy
