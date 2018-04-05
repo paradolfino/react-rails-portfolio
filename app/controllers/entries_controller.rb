@@ -16,19 +16,13 @@ class EntriesController < ApplicationController
     def create
         @entry = Entry.new(entry_params)
         if @entry.save
-            redirect_to @entry
+            json_response(@entry)
         else
-            render 'new'
+            json_response(@entry.errors, :unprocessable_entity)
         end
     end
 
-    def update
-        if @entry.update(entry_params)
-            redirect_to @entry
-        else
-            render 'edit'
-        end
-    end
+    def update; end
 
     def destroy
         @entry.destroy

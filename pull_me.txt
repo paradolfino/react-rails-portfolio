@@ -1,5 +1,7 @@
 
-[implement friendly_id for technology model]
-### 27/03/2018[19:40 - 19:53]:
-* implement friendly_id
+[add json response concern, implement json response in entries and declarations controllers]
+### 04/04/2018[19:32 - 19:45]:
+* create json response concern
+* create json responses for create/update actions of declarations
+* create json responses for create actions of entries
 
