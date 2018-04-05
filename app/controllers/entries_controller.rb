@@ -16,7 +16,7 @@ class EntriesController < ApplicationController
     def create
         @entry = Entry.new(entry_params)
         if @entry.save
-            redirect_to @entry
+            json_response(@entry)
         else
             render 'new'
         end
