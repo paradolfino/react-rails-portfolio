@@ -16,7 +16,7 @@ class DeclarationsController < ApplicationController
     def create
         @declaration = Declaration.new(declaration_params)
         if @declaration.save
-            redirect_to @declaration
+            json_response(@declaration.to_json(:include => [:entries]))
         else
             render 'new'
         end
