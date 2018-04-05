@@ -66,3 +66,5 @@ Things you may want to cover:
 ##### 04/04/2018: 19:32 - 19:35:pool[create json response concern]
 
 ##### 04/04/2018: 19:35 - 19:42:pool[create json responses for create/update actions of declarations]
+
+##### 04/04/2018: 19:42 - 19:45:pool[create json responses for create actions of entries]

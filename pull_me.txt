@@ -1,1 +1,7 @@
 
+[add json response concern, implement json response in entries and declarations controllers]
+### 04/04/2018[19:32 - 19:45]:
+* create json response concern
+* create json responses for create/update actions of declarations
+* create json responses for create actions of entries
+
