@@ -18,7 +18,7 @@ class EntriesController < ApplicationController
         if @entry.save
             json_response(@entry)
         else
-            render 'new'
+            json_response(@entry.errors, :unprocessable_entity)
         end
     end
 
