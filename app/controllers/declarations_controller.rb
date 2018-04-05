@@ -18,7 +18,7 @@ class DeclarationsController < ApplicationController
         if @declaration.save
             json_response(@declaration.to_json(:include => [:entries]))
         else
-            render 'new'
+            json_response(@declaration.errors, :unprocessable_entity)
         end
     end
 
