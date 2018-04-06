@@ -1,7 +1,5 @@
 
-[add json response concern, implement json response in entries and declarations controllers]
-### 04/04/2018[19:32 - 19:45]:
-* create json response concern
-* create json responses for create/update actions of declarations
-* create json responses for create actions of entries
+[set up pages controller and pages views plus routes]
+### 05/04/2018[19:51 - 19:58]:
+* set up pages controller for static pages
 
