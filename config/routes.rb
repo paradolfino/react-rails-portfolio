@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   resources :declarations do
     resources :entries
   end
+
+  root => 'pages#home'
+  get '/contact' => 'pages#contact'
 end
