@@ -6,6 +6,7 @@ class PagesController < ApplicationController
 
     def projects
         @projects = Project.all
+        @technologies = Technology.all
     end
 
     def contact
