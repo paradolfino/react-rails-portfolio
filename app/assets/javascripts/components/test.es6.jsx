@@ -1,3 +1,3 @@
-const Test = () => {
-    return <h1>Hi</h1>;
+const Test = (props) => {
+    return <h1>{props.text}</h1>;
 }
