@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     resources :entries
   end
 
-  root => 'pages#home'
+  root to: 'pages#home'
   get '/contact' => 'pages#contact'
 end
