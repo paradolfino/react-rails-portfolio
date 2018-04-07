@@ -3,10 +3,12 @@ class DeclarationsController < ApplicationController
 
     def index
         @declarations = Declaration.all
+        json_response(@declarations)
     end
 
     def show
         @declaration = Declaration.find(params[:id])
+        json_response(@declaration)
     end
 
     def new
