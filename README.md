@@ -76,3 +76,5 @@ Things you may want to cover:
 ##### 07/04/2018: 16:42 - 16:45:pool[create test react component]
 
 ##### 07/04/2018: 16:45 - 17:13:pool[test component including data]
+
+##### 07/04/2018: 17:13 - 17:14:pool[fix declarations controller for full json_response with show and index]
