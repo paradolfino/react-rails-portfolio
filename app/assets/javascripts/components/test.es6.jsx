@@ -3,7 +3,7 @@ class Test extends React.Component {
         super(props);
     }
     render() {
-        contents = this.props.map((i)=>{
+        contents = this.props.text.map((i)=>{
 
         });
         return (
