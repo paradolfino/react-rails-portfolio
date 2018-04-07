@@ -74,3 +74,5 @@ Things you may want to cover:
 ##### 07/04/2018: 16:38 - 16:42:pool[set up react-rails gem]
 
 ##### 07/04/2018: 16:42 - 16:45:pool[create test react component]
+
+##### 07/04/2018: 16:45 - 17:13:pool[test component including data]
