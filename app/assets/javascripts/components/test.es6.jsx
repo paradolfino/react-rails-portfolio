@@ -4,7 +4,7 @@ class Test extends React.Component {
     }
     render() {
         contents = this.props.text.map((i)=>{
-            return <p>{i.content}</p>;
+            return <p>{JSON.stringify(i.content)}</p>;
         });
         return (
             {contents}
