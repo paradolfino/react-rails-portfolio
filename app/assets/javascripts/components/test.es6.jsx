@@ -3,10 +3,11 @@ class Test extends React.Component {
         super(props);
     }
     render() {
+        contents = this.props.map((i)=>{
+
+        });
         return (
-            {this.props.text.map(()=>{
-                
-            })}
+            {contents}
         )
     }
 };
