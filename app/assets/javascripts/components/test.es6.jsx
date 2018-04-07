@@ -4,7 +4,9 @@ class Test extends React.Component {
     }
     render() {
         return (
-            {}
+            {this.props.text.map(()=>{
+                
+            })}
         )
     }
 };
