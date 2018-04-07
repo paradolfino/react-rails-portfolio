@@ -8,7 +8,7 @@ class Test extends React.Component {
         return (
             <div>
                 {this.props.text.map((i,k)=> {
-
+                    <p>{i.content}</p>
                 })}
             </div>
         )
