@@ -70,3 +70,5 @@ Things you may want to cover:
 ##### 04/04/2018: 19:42 - 19:45:pool[create json responses for create actions of entries]
 
 ##### 05/04/2018: 19:51 - 19:58:pool[set up pages controller for static pages]
+
+##### 07/04/2018: 16:38 - 16:42:pool[set up react-rails gem]
