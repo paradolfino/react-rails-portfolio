@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
 
-    def home; end
+    def home
+        @declarations = Declaration.all
+    end
 
     def contact ;end
 end
