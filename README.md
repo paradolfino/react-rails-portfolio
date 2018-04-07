@@ -72,3 +72,5 @@ Things you may want to cover:
 ##### 05/04/2018: 19:51 - 19:58:pool[set up pages controller for static pages]
 
 ##### 07/04/2018: 16:38 - 16:42:pool[set up react-rails gem]
+
+##### 07/04/2018: 16:42 - 16:45:pool[create test react component]
