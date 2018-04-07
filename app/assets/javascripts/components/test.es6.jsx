@@ -1,3 +1,10 @@
-const Test = (props) => {
-    return <h1>{JSON.stringify(props.text.content)}</h1>;
-}
+class Test extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            {}
+        )
+    }
+};
