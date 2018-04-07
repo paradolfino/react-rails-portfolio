@@ -8,11 +8,13 @@ class Test extends React.Component {
     }
 
     render() {
-        contents = this.props.text.map((i)=>{
-            return <p>{JSON.stringify(i.content)}</p>;
-        });
+
         return (
-            {contents}
+            <div>
+                {this.props.text.map((i,k)=> {
+                    
+                })}
+            </div>
         )
     }
 };
