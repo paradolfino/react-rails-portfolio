@@ -8,7 +8,9 @@ class Test extends React.Component {
         return (
             <div>
                 {this.props.text.map((i,k)=> {
-                    return <p key={k}>{i.content}</p>
+                    return (
+                    <p key={k}>{i.content} <a href={i.git}>{i.directory}</a></p>
+                    )
                 })}
             </div>
         )
