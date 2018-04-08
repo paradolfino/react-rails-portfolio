@@ -1,9 +1,1 @@
 
-[implemented react-rails, set up test component, implement data with test component and displayed on home page]
-### 07/04/2018[16:38 - 17:29]:
-* set up react-rails gem
-* create test react component
-* test component including data
-* fix declarations controller for full json_response with show and index
-* testing react component with data from declarations
-
