@@ -1,9 +1,7 @@
 
-[implemented react-rails, set up test component, implement data with test component and displayed on home page]
-### 07/04/2018[16:38 - 17:29]:
-* set up react-rails gem
-* create test react component
-* test component including data
-* fix declarations controller for full json_response with show and index
-* testing react component with data from declarations
+[modify declaration model to have directory and git columns, refactor test react component to show these columns]
+### 08/04/2018[17:30 - 17:45]:
+* add columns to declarations model for directory and git link
+* test POST from httpdec to declarations with new columns
+* refactor test component to reflect new columns
 
