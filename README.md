@@ -80,3 +80,5 @@ Things you may want to cover:
 ##### 07/04/2018: 17:13 - 17:14:pool[fix declarations controller for full json_response with show and index]
 
 ##### 07/04/2018: 17:14 - 17:29:pool[testing react component with data from declarations]
+
+##### 08/04/2018: 17:30 - 17:34:pool[add columns to declarations model for directory and git link]
