@@ -1,6 +1,6 @@
 class AddDirectoryAndLinkToDeclarations < ActiveRecord::Migration[5.1]
   def change
-    add_column :declaration, :directory, :string
-    add_column :declaration, :git, :string
+    add_column :declarations, :directory, :string
+    add_column :declarations, :git, :string
   end
 end
