@@ -1,1 +1,7 @@
 
+[modify declaration model to have directory and git columns, refactor test react component to show these columns]
+### 08/04/2018[17:30 - 17:45]:
+* add columns to declarations model for directory and git link
+* test POST from httpdec to declarations with new columns
+* refactor test component to reflect new columns
+
