@@ -39,7 +39,7 @@ class DeclarationsController < ApplicationController
     private
 
         def declaration_params
-            params.permit(:content, :created_by)
+            params.permit(:content, :directory, :git, :created_by)
         end
 
         def set_declaration
